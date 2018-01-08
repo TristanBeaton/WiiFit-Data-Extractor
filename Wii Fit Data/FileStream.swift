@@ -17,14 +17,17 @@ enum StreamError: Error {
     case invalidString
     case endOfRecords
 }
+
 class WiiFileStream {
     
     var stream: InputStream!
+    
     private(set) var totalBytesRead = 0 {
         willSet {
             bytesRead += newValue - totalBytesRead
         }
     }
+    
     var bytesRead = 0
     
     var hasBytesAvailable: Bool { return stream.hasBytesAvailable }
@@ -141,7 +144,6 @@ class WiiFileStream {
         let year = (thousands * 1000) + (hundreds * 100) + (tens * 10) + ones
         let month = try self.readInt8()
         let day = try self.readInt8()
-        print(String(month, radix: 2),String(day, radix: 2))
         return (year, month, day)
     }
 }
