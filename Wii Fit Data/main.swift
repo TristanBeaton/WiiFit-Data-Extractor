@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let path = "/Users/tristanbeaton/Desktop/0001000452465050/FitPlus0.dat"
+let profiles = WiiFitProfile.extract(file: path)
+
+profiles.forEach { print(); print($0) }
 

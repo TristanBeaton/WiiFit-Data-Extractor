@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FD1373F72002F1E5002ED8FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1373F62002F1E5002ED8FE /* main.swift */; };
+		FD1373FE2002FB80002ED8FE /* WiiFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1373FD2002FB80002ED8FE /* WiiFit.swift */; };
+		FD455CB2200365E70021FB97 /* FileStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD455CB1200365E70021FB97 /* FileStream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		FD1373F32002F1E5002ED8FE /* Wii Fit Data */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Wii Fit Data"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1373F62002F1E5002ED8FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FD1373FD2002FB80002ED8FE /* WiiFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiFit.swift; sourceTree = "<group>"; };
+		FD455CB1200365E70021FB97 /* FileStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStream.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				FD1373F62002F1E5002ED8FE /* main.swift */,
+				FD1373FD2002FB80002ED8FE /* WiiFit.swift */,
+				FD455CB1200365E70021FB97 /* FileStream.swift */,
 			);
 			path = "Wii Fit Data";
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD1373F72002F1E5002ED8FE /* main.swift in Sources */,
+				FD455CB2200365E70021FB97 /* FileStream.swift in Sources */,
+				FD1373FE2002FB80002ED8FE /* WiiFit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
